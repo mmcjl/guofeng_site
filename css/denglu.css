@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{font-size:18px; 
+	font-family:"微软雅黑"; 
+	background: url(../images/denglu.jpg) no-repeat top center; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color:rgb(148, 65, 54);}   
+	
+	
+form,p{ padding:0; margin:0; border:0;}   
+form{
+	width:420px;
+	height:200px;
+	padding-top:60px;
+	margin:250px auto;                      
+	background:rgba(255, 255, 255, 0.34);    
+	border-radius:20px;
+	border:1px solid rgba(255,255,255,0.3);
+	} 
+p{
+	margin-top:15px; 
+	text-align:center;
+ } 
+p span{
+	width:60px;
+	display:inline-block; 
+	text-align:right;
+	} 
+.num{background:rgba(255,255,255,0.1)}
+.pass{background: rgba(255,255,255,0.1);}
+.num,.pass{ 
+	width:165px;
+	height:18px;
+	border:1px solid rgba(255, 255, 255, 0.396);
+	padding:2px 2px 2px 22px;
+	border-radius: 5px;
+	color:rgb(11, 11, 11);
+}
+.btn01{
+	width:190px;
+	height:25px;
+	border-radius:3px;
+	border:2px solid #000;
+	margin-left: 65px;
+	background: #d17272f8;
+	color:#FFF;
+	border:none;
+}
+a{
+	font-size: 15px;
+	
+	text-decoration: none;
+	color:rgb(148, 65, 54);
+}
+a:hover{color:#FFF}
+.al{margin-left: 156px;}
+	              

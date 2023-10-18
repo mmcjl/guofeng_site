@@ -1,0 +1,148 @@
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {margin:0;padding:0;border:0;list-style: none;}
+/*全局控制样式*/
+body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:12px; background-color: #e3dede;}
+.a1{color:#797777;}
+.a1{margin-right: 20px;}
+
+
+#header{
+    width:1100px;
+    height:50px;
+    margin:0 auto;
+    background:#fff;
+    
+}
+#header .nav .right li{
+	float: right;
+	height:46px;
+	line-height: 46px;
+	cursor: pointer;
+    font-size:medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.a1{
+    padding:0 20px;
+    height:50px;
+    line-height:50px;
+    display: block;
+    text-decoration: none;
+}
+.a1:hover{
+    color:#fff;
+    background-color: rgb(129, 19, 5);
+}
+#header .nav .mn{
+    width:100px;
+    height:46px;
+    margin-left: 20px;
+    margin-top: 4px;
+    
+    
+    float:left;
+}
+	
+
+.banner{
+	width:1100px;
+	height:400px;
+	position:relative;
+	color:#fff;
+	overflow: hidden;
+	text-align: center;
+    margin:0 auto;
+}
+.ban{
+    width:100%;
+    height:100%;
+}
+.main{
+    width:1100px;
+    height:1400px;
+    margin:0 auto;
+    background:#fff;
+}
+.all{
+    width:1100px;
+    height:400px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.ma{
+    padding-top: 20px;
+    margin-left:14px;
+}
+.xuhao{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:rgb(129, 19, 5) ;
+    margin:2px auto;
+}
+.p1{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 13px;
+}
+h1,.p2{
+    color:rgb(129, 19, 5);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p3{
+    width:800px;
+    font-size: 14px;
+    margin:10px auto;
+    margin-top: 20px;
+    text-indent: 2em;
+}
+.all{
+    width:1100px;
+    height:400px;
+    background-color: rgb(129, 19, 5);
+    margin-top: 30px;
+}
+.mc{
+    padding-top: 20px;
+    padding-left:12px;
+}
+.all .mc .xuhao{background-color: #fff;}
+.all .mc .p1{color:rgb(129, 19, 5);}
+.all .mc .p2,.all .mc h1{color:#fff;}
+.all .mc .p3{color:#fff;}
+.ma{padding-top: 20px;}
+footer{
+	width:1100px;
+	height:127px;
+    margin: 0 auto;
+	
+	background:rgb(129, 19, 5); 
+	color:#fff;
+	text-align: center;
+}
+footer .foot{
+	width:500px;
+	height:127px;
+	margin:0 auto;
+	position: relative;
+}
+footer span{
+	width:58px;
+	height:58px;
+	line-height: 43px;
+	text-align: center;
+	color:#fff;
+	position: absolute;
+	top:-31px;
+	border-radius: 50%;
+	margin-left:-29px;
+	background:rgb(129, 19, 5) ;
+}
+.p4{
+    
+    color:#fff;
+	line-height: 127px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link href="css/zhuce.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form action="index.html" method="post">
+        <h1>新用户注册</h1>	
+        <table>
+            <tr>
+                <td>
+                    <span>账号：</span>
+                </td>
+                <td>
+                    <input type="text" name="username" class="num" pattern="^[a-zA-Z][a-zA-Z0-9_]{4,15}$" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>密码：</span>
+                </td>
+                <td>
+                    <input type="password" name="pwd" class="pass" pattern="^[a-zA-Z]\w{5,17}$"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>确认密码：</span>
+                </td>
+                <td>
+                    <input type="password" name="pwd" class="pass" pattern="^[a-zA-Z]\w{5,17}$"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>年龄：</span>
+                </td>
+                <td>
+                    <input type="text"  class="pass" pattern="^/d{2}$"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>性别：</span>
+                </td>
+                <td>
+                    <input type="radio"  name="sex" class="sex" checked="checked" id="man"/><label for="man">男</label>
+                    <input type="radio"  name="sex" class="sex"  id="woman"/><label for="woman">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp
+                </td>
+                <td>
+                    <input type="button" class="btn01" value="注册"/>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span><a href="denglu.html">返回</a></span></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {margin:0;padding:0;border:0;list-style: none;}
+/*全局控制样式*/
+body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:12px; background-color: #e3dede;}
+
+
+.header{
+    width:1000px;
+    height:175px;
+    margin:0 auto;
+    background:#fff;
+    padding:0px;
+}
+.title{
+    width:1000px;
+    height:90px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.all{
+    width:1000px;
+    height:50px;
+}
+.author{
+    float:left;
+    position:relative;
+    width:47px;
+    height:47px;
+    margin-left:100px;
+}
+
+.touxiang{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.ming{
+    width:110px;
+    height:47px;
+    float:right;
+    font-size: 10px;
+    margin: 2px auto;
+   
+    padding-top: 2px;
+    
+}
+.td2{width:110px;height:47px;}
+li{height:20px;font-weight: 400;}
+.guanzhu{
+    width: 80px;
+    height: 32px;
+    border-radius: 16px;
+    background: #4e6ef2;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    float:left;
+    margin-left:10px;
+}
+.p1{
+    color:#fff;
+    font-size: 14px;
+    margin:0;
+    margin-right:20px;
+}
+.main{
+    width:1000px;
+    height:4200px;
+    margin:0 auto;
+    background:#fff;
+    padding:0px;
+}
+.content{
+    width:800px;
+    height:800px;
+    margin:0 auto;
+    
+
+}
+p{
+    font-size: 16px;
+    text-indent: 2em;
+}
+video{
+    width:800px;
+    height:500px;
+}
+.content2{
+    width:800px;
+    height:500px;
+}
+.p2{
+    font-size: 14px;
+    margin-top:2px;
+}
+.tupian{
+    width:800px;
+    height:400px;
+    margin:20px auto;
+}
+.images1{
+    width:100%;
+    height:100%;
+}
+.fanhui1{
+    width: 80px;
+    height: 32px;
+    border-radius: 16px;
+    background: rgb(129, 19, 5);
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    float:left;
+    margin-left:700px;
+    margin-top: 20px;
+    
+}
+a{
+    color:#fff;
+    
+    display: block;
+}

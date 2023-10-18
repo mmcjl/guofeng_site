@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            text-decoration: none;
+        }
+        .banner{
+            width:1100px;
+	        height:400px;
+	        position:relative;
+	        color:#fff;
+	        margin:0 auto;
+	        text-align: center;
+            overflow: hidden;
+    
+        }
+        #imglist{
+            width:6600px;
+            height:400px;
+        }
+        #imglist img{
+            width:1100px;
+            height:400px;
+        }
+        #imglist li{float:left;}
+        .prev{
+            width: 60px;
+            height: 140px;
+            position:absolute;
+            top: 35%;
+            left: -60px;
+            margin-top: -25px;
+            padding-top:50px;
+            font-size: 40px;
+            background-color: #a867676b;
+            border:none;
+            transition: left .3s;
+            cursor:pointer;
+    
+        }
+        .next{
+            width: 60px;
+            height: 140px;
+            position:absolute;
+            top: 35%;
+            right: -60px;
+            margin-top: -25px;
+            padding-top:50px;
+            font-size: 40px;
+            background-color: #a867676b;
+            border:none;
+            transition: right .3s;
+            cursor: pointer;
+    
+        }
+        .banner:hover .prev{left:0;}
+        .banner:hover .next{right:0;}
+    
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <ul id="imglist">
+            <li><img  src="images/1.png" /></li>
+            <li><img  src="images/2.png" /></li>
+            <li><img  src="images/3.png" /></li>
+            <li><img  src="images/4.png" /></li>
+            <li><img  src="images/5.png" /></li>
+            <li><img  src="images/1.png" /></li>
+        </ul>
+        <div class="prev"><</div>
+        <div class="next">></div>
+    </div>
+    <script>
+        var eprev = document.querySelector('.prev')
+        var enext = document.querySelector('.next')
+        var left = 0;
+        var timer;
+        run();
+        function run(){
+            if(left <= -5500){
+                left = 0;
+            }
+            imglist.style.marginLeft = left+ 'px';
+            var n = (left % 1100 ==0) ? n = 1800 : n =10;
+            left -= 10;
+            timer = setTimeout(run,n);
+        }
+        function imgchange(n){
+            let lt = -(n * 1100);
+            imglist.style.marginLeft = lt + 'px';
+            left = lt;
+        }
+        eprev.onclick = function(){
+            let prevgo = Math.floor(-left / 1100) - 1;
+            if(prevgo == -1){
+                prevgo = 4;
+            }
+            imgchange(prevgo);
+            
+        }
+        enext.onclick = function(){
+            let nextgo = Math.floor(-left / 1100) + 1;
+            if(nextgo == 5){
+                nextgo = 0;
+            }
+            imgchange(nextgo);
+        }
+    </script>
+</body>
+</html>
